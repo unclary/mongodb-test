@@ -1,0 +1,18 @@
+{
+  "name": "mongodb-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "ejs": "^2.2.3",
+    "express": "^4.11.1",
+    "mongodb": "^1.4.29",
+    "monk": "^0.9.1"
+  },
+  "author": "",
+  "license": "ISC"
+}

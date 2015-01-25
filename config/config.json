@@ -1,0 +1,11 @@
+{
+	"host": {
+		"ip": "localhost",
+		"port": 1212
+	},
+	"db": {
+		"host": "localhost",
+		"port": 27017,
+		"name": "clary"
+	}
+}

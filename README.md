@@ -59,13 +59,13 @@ db.usercollection.find().pretty()
 ```
 
 ## nodejs文件里面使用mongodb( 测试数据库名：clary )    
-	+ 为项目安装相关的mongodb并写入包配置文件  
++ 为项目安装相关的mongodb并写入包配置文件  
 ```bash
 		npm install mongodb --save  
 		npm install monk --save  
 ```
 
-	+ 文件引入mongodb, 配置mongodb数据库链接地址，并查询  
++ 文件引入mongodb, 配置mongodb数据库链接地址，并查询  
 ```javascript
 		var mongo = require("mongodb");  
 		var monk = require("monk"); // 引入mongodb相关依赖  
@@ -76,8 +76,8 @@ db.usercollection.find().pretty()
 		})  
 ```
 
-	+ 新增数据  
-		插入一条数据：用户名test1004, 邮箱test1004@qq.com
++ 新增数据  
+插入一条数据：用户名test1004, 邮箱test1004@qq.com
 ```javascript
     var collection = db.get("usercollection"); // 开始使用db查询    
     collection.insert({    
