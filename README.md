@@ -1,5 +1,8 @@
 # mongodb-tes
 mongodb入门，初步掌握其基本操作
+本测试提供demo，端口默认1212，地址/test  
+测试访问地址：http://localhost:1212/test,具体实际地址根据实际情况请自行调整
+由于测试数据库较大，暂不上传
 
 ## 下载并安装mongodb
 https://www.mongodb.org/downloads
@@ -88,4 +91,4 @@ db.usercollection.find().pretty()
     })    
 ```
 
-	+ 感谢 [express+mongodb教程](http://www.toolmao.com/nodejs-express-ejs-mongodb-server)  
++ 感谢 [express+mongodb教程](http://www.toolmao.com/nodejs-express-ejs-mongodb-server)  
