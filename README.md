@@ -32,8 +32,7 @@ use clary
 使用上面命令后还不会创建数据库，当有数据插入后它才会去创建数据库
 
 + 插入数据  
-插入一条数据：用户名test1001，邮箱test1001@qq.co
-
+插入一条数据：用户名test1001，邮箱test1001@qq.com  
 ```bash
 db.usercolection.insert({"username":"test1001", "email":"test1001@qq.com"})  
 ```  
@@ -91,4 +90,5 @@ db.usercollection.find().pretty()
     })    
 ```
 
++ demo下载：[mongodb-test](https://github.com/unclary/mongodb-test "mongodb-test")
 + 感谢 [express+mongodb教程](http://www.toolmao.com/nodejs-express-ejs-mongodb-server)  
